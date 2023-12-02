@@ -20,6 +20,7 @@ const Task = ({ task, onEdit, onDelete }) => {
       <div className="flex items-center mt-4">
         <input type="checkbox" checked={completed} readOnly className="mr-2" />
         <label className="text-gray-700 text-sm">Completed</label>
+        <div>Hello</div>
       </div>
     </div>
   );
